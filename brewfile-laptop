@@ -7,13 +7,11 @@ tap "homebrew/bundle"
 #Some dependancy and brew-related things that come in handy
 brew "python@3.11"
 brew "mas"
-brew "mackup"
 brew "gh"
 brew "git"
 brew "glances"
 brew "midnight-commander"
 brew "mpv"
-brew "rclone"
 brew "speedtest-cli"
 brew "telnet"
 
