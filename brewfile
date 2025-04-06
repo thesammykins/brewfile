@@ -1,47 +1,77 @@
 cask_args appdir: "/Applications"
 
-#Tappers
+# Taps
 tap "1password/tap"
 tap "homebrew/bundle"
 
-#Some dependancy and brew-related things that come in handy
+# CLI Tools and Utilities
 brew "python@3.11"
-brew "mackup"
+brew "python@3.12"
+brew "python@3.13"
 brew "gh"
 brew "git"
 brew "glances"
 brew "midnight-commander"
 brew "mpv"
-brew "rclone"
-brew "speedtest-cli"
+brew "speedtest"
 brew "telnet"
 brew "thefuck"
 
-#Good default applications to start doing things
-cask "github"
-cask "raycast"
+# AI and Data Science
+brew "ollama"
+
+# Media and Graphics
+brew "ffmpeg"
+brew "imagemagick"
+brew "yt-dlp"
+
+# Cloud and DevOps
+brew "docker"
+brew "docker-completion"
+
+# Development Tools
+brew "pyenv"
+brew "ruff"
+
+# Security and Network
 cask "1password-cli"
-cask "android-platform-tools"
-cask "discord"
-cask "spotify"
+cask "tailscale"
+cask "microsoft-remote-desktop"
+
+# Development Tools
+cask "github"
 cask "visual-studio-code"
 cask "warp"
-cask "arc"
-cask "screen-studio"
+cask "android-platform-tools"
+cask "cyberduck"
+cask "flutter"
+cask "mist"
+cask "google-cloud-sdk"
+cask "cursor"
+
+# Productivity and Organization
+cask "raycast"
+cask "notion"
+cask "notion-calendar"
+cask "cron"
 cask "google-drive"
-cask "microsoft-remote-desktop"
+cask "dropbox"
 cask "cleanshot"
-cask "beeper"
 cask "bartender"
 cask "istat-menus"
-cask "tailscale"
-cask "cyberduck"
-cask "cron"
-cask "notion"
+cask "permute"
 
-# VSCode Extensions
-vscode "GitHub.vscode-pull-request-github"
-vscode "ms-vscode-remote.remote-ssh"
-vscode "ms-vscode-remote.remote-ssh-edit"
-vscode "ms-vscode.remote-explorer"
-vscode "redhat.vscode-xml"
+# Communication and Media
+cask "discord"
+cask "spotify"
+cask "beeper"
+cask "screen-studio"
+cask "wave"
+cask "elgato-wave-link"
+
+# Browsers
+cask "arc"
+
+# Hardware and Peripherals
+cask "logi-options-plus"
+cask "yubico-yubikey-manager"
